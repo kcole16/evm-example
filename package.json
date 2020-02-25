@@ -1,0 +1,22 @@
+{
+  "name": "working",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "web3": "1.2.2",
+    "bs58": "^4.0.1",
+    "near-web3-provider": "git+https://github.com/nearprotocol/near-web3-provider.git",
+    "nearlib": "^0.21.0",
+    "openzeppelin-solidity": "^2.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

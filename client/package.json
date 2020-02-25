@@ -1,0 +1,36 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bs58": "^4.0.1",
+    "near-web3-provider": "git+https://github.com/nearprotocol/near-web3-provider/tree/v0.2.0-denver.git",
+    "nearlib": "^0.21.0",
+    "openzeppelin-solidity": "^2.5.0",
+    "react": "16.11.0",
+    "react-dom": "16.11.0",
+    "react-scripts": "3.2.0",
+    "web3": "^1.2.6"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
